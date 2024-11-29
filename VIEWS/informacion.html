@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Alpha Male es un centro especializado en entrenamiento de artes marciales, donde 
+            combinamos tradición, disciplina y técnica para ayudarte a alcanzar tus objetivos físicos y mentales. Damos clases 
+            de judo, karate, taekwondo, boxeo, MMA, etc.. para todas las edades y niveles, desde principiantes hasta avanzados.">
+        <meta name="keywords" content="gimnasio, artes marciales, boxeo, lucha, mma, muai thai, karate, judo, jiu jitsu, kick boxing">
+        <meta name="locality" content="Barcelona, cataluña, España, europa">
+        <title>información Alpha Male</title>
+        <link rel="stylesheet" href="../CSS/informacion.css">
+        <link rel="canonical" href="./index.html">
+    </head>
+    <body>
+        <div class="head">
+            <nav>
+                <a class="inicio" href="../index.html">INICIO</a>
+                <a class="disciplinas" href="../VIEWS/disciplinas.html">DISCIPLINAS</a>
+                <a class="informacion" href="../VIEWS/informacion.html">INFORMACIÓN</a>
+                <a class="contacto" href="../VIEWS/contacto.html">CONTACTO</a>
+            </nav>
+            <header>
+                <img src="../IMAGES/LOGO.png" alt="Badfame Fight Club" width="200" height="200">
+            </header>
+        </div>
+        <div class="contenedor">
+            <article>
+                <div class="tipografia">
+                    <h2><img src="../IMAGES/tipopng35.png" alt="tipografia alpha"></h2>
+                </div>
+                <p><strong>¡Transforma tu cuerpo y mente con nosotros!</strong></p>
+                <p>En <strong>Alpha Male</strong>, ofrecemos un enfoque único para quienes buscan no solo entrenar, sino también competir 
+                    y superarse. Con una variedad de disciplinas de artes marciales, desde Jiu-Jitsu, Muay Thai, Kickboxing, MMA, etc.., 
+                    nuestro gimnasio es el lugar perfecto para cualquier persona que quiera llevar su entrenamiento al siguiente nivel. 
+                    Ya sea que busques mejorar tu forma física, aprender nuevas habilidades o estar listo para la competencia, nuestro 
+                    equipo de entrenadores expertos te guiará en cada paso del camino. ¿Listo para comenzar tu viaje en el mundo de las 
+                    artes marciales? Solicita más información hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas.</p>
+                    <p>¡Te esperamos en <strong>Alpha Male</strong>!</p><br>
+                <form action="correoelectonico@gmail.com" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" pattern="[a-zA-Z ÁÀÄáàäÉÈËéèëÍÌÏíìïÓÒÖóòöÚÙÜúùüñÑ]+" required>
+                    </div>
+                    <div>
+                        <label for="apellido1">Primer apellido:</label>
+                        <input type="text" id="apellido1" name="apellido1" placeholder="Escriba su apellido" pattern="[a-zA-Z \-ÁÀÄáàäÉÈËéèëÍÌÏíìïÓÒÖóòöÚÙÜúùüñÑ]+" required>
+                    </div>
+                    <div>
+                        <label for="apellido2">Segundo apellido:</label>
+                        <input type="text" id="apellido2" name="apellido2" placeholder="Escriba su apellido" pattern="[a-zA-Z \-ÁÀÄáàäÉÈËéèëÍÌÏíìïÓÒÖóòöÚÙÜúùüñÑ]+" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Escriba su email" required>
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Escriba su teléfono" maxlength="12" pattern="[0-9\+]{12}+" required>
+                    </div>
+                    <div>
+                        <p>Solicitar información:</p>
+                        <textarea cols="46" rows="8" name="consulta" required></textarea>
+                    </div>             
+                    <input type="submit" name="boton" value="Enviar consulta">
+                    <input type="reset" name="boton" value="Borrar formulario">
+                    <br>
+                    <div>
+                        <p>Política de privacidad<input type="checkbox" name="casilla" value="privacidad"></p>
+                    </div>
+                </form>
+            </article>
+        </div>  
+        <footer>
+            <ul>
+                <li><a href="https://www.instagram.com/"><img src="../IMAGES/instagram.png" alt="instagram" width="20" height="20"></a></li>
+                <li><a href="https://es-es.facebook.com/"><img src="../IMAGES/facebook.png" alt="facebook" width="20" height="20"></a></li>
+                <li><a href="https://x.com/"><img src="../IMAGES/twitter.png" alt="twitter" width="20" height="20"></a></li>
+                <li><a href="https://www.youtube.com/"><img src="../IMAGES/youtube.png" alt="youtube" width="20" height="20"></a></li>
+            </ul>
+            <p>©2021 Alpha Male Barcelona <br> <a href="#">Legal Notice</a> – <a href="#">Privacy Policy</a> – <a href="#">Cookies Policy</a></p>
+        </footer>
+    </body>
+</html>
